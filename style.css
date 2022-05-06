@@ -75,3 +75,12 @@ main {
     transform: scale(1.075);
     cursor: pointer;
 }
+
+.adding-book {
+    display: flex !important;
+    position: fixed;
+}
+
+.add-form {
+    display: none;
+}
