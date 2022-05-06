@@ -27,3 +27,15 @@ header {
     align-items: center;
     justify-content: center;
 }
+
+main {
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    height: 100%;
+}
+
+.sidebar {
+    background-color: rgb(165, 101, 42);
+    padding: 2%;
+    height: 100%;
+}
