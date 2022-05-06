@@ -46,8 +46,8 @@ main {
     height: 100%;
     background-color: beige;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    grid-template-rows: repeat(auto-fill, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(20%, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(40%, 1fr));
     overflow: auto;
     gap: 2%;
 }

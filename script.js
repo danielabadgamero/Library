@@ -1,0 +1,1 @@
+const addBook = document.getElementsByClassName("add-book");
