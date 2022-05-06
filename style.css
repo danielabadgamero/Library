@@ -109,11 +109,28 @@ input[type="number"] {
     background-color: rgba(211, 187, 151, 0.479);
     padding: 5px;
     font-weight: 600;
-    color: white;   
+    color: white;
+    border: 1px solid rgb(0, 0, 0);
 }
 
 .card > div {
     display: flex;
     flex-direction: column;
     gap: 5px;
+}
+
+.bookCard {
+    border: 3px solid darkgreen;
+    border-radius: 20px;
+    background-color: rgb(197, 156, 94);
+}
+
+button {
+    width: 50%;
+    height: 5%;
+    background-color: rgba(211, 187, 151, 0.842);
+    margin: auto;
+    font-size: 1.1em;
+    border: 1px solid rgba(211, 187, 151, 0.842);
+    border-radius: 20px;
 }
