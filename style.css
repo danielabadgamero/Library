@@ -60,6 +60,7 @@ main {
     justify-content: center;
     flex-direction: column;
     background-color: rgba(211, 187, 151, 0.479);
+    transition: 1s;
 }
 
 .add-book > p:first-child {
@@ -68,4 +69,9 @@ main {
 
 .add-book > p:last-child {
     font-size: 3em;
+}
+
+.add-book:hover {
+    transform: scale(1.075);
+    cursor: pointer;
 }
